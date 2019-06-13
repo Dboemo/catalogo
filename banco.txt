@@ -1,0 +1,10 @@
+--banco : catalogo
+CREATE TABLE objetos
+(
+  
+idobjeto serial PRIMARY KEY,
+  
+nomeobjeto character varying(50),
+  
+idtipoobjeto integer)
+;
